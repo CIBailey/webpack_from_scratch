@@ -1,0 +1,13 @@
+to initilaize npm before the installation, it is important to run npm init -y command 
+
+npm i --save-dev webpack@latest webpack-dev-server@latest
+webpack-dev-server created an HTTP client to serve our files
+
+
+it is also necessary to start with creating an index.html webpack.config.js and index.js
+
+each webfile has at least one .html file where the browser entry point is. 
+
+You also must have webpack globally on your computer. In order to do this, run
+npm i -g webpack@latest
+with g meaning global and the @latest downloads the latest version
