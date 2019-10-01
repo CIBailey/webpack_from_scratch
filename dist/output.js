@@ -88,7 +88,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-document.write("hello, world.")
+document.write("hello, world.");
 
 /***/ })
 /******/ ]);

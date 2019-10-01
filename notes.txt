@@ -11,3 +11,16 @@ each webfile has at least one .html file where the browser entry point is.
 You also must have webpack globally on your computer. In order to do this, run
 npm i -g webpack@latest
 with g meaning global and the @latest downloads the latest version
+
+webpack --watch
+this allows for recompilation upon save
+
+
+to instal the dependencies for Babel you have two packages: core and loader. Run command 
+npm install --save-dev babel-loader babel-core
+
+Loader allows us to preprocess files during the require()
+This is where Typescript for example would be translated into javascript 
+
+::Sass to css compilation::
+npm i --save-dev sass-loader node-sass css-loader style-loader
