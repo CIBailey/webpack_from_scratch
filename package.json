@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,9 @@
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
-    "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
-    "babel-preset-es2015": "^6.24.1",
     "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
